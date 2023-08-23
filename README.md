@@ -63,7 +63,7 @@ In your HTML file, you can use the fetch() API to make asynchronous requests to 
 </html>
 ```
 
-**Run the Server and Open the HTML Page:**
+**4. Run the Server and Open the HTML Page:**
 
 Run your Node.js server using the appropriate command (e.g., node server.js). Then, open the HTML page in a web browser and click the "Get Data" button. You should see the data returned from the server displayed on the page.
 
