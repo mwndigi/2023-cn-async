@@ -1,5 +1,13 @@
 # Repo for asynkron programmering
 
+Diverse ChatGPT prompts for code snippets med en Node.js server og JavaScript i en HTML fil.
+
+- async/await keyword
+- Promises
+- try catch block
+- Fetch API
+- HTML DOM
+
 ## How can i make async calls using http from a html page to my node.js server
 
 To make asynchronous calls from an HTML page to a Node.js server, you can use JavaScript's fetch() API or other similar methods. Here's a step-by-step guide on how to achieve this:
@@ -306,4 +314,3 @@ fetchData();
 The **async/await** version avoids the nesting of callbacks and provides a more intuitive flow of control. This approach is especially helpful when you have multiple asynchronous operations that need to be executed sequentially.
 
 Keep in mind that the **async/await** syntax is not always suitable, especially when you have to run asynchronous operations in parallel or handle complex control flows. In such cases, you might still use **.then** chaining or other techniques, like **Promise.all** for parallel execution. The choice depends on the specific requirements of your code.
-
